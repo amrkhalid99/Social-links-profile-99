@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(32, 32, 32);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(37, 37, 37);
+    padding: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 625px;
+    width: 400px;
+    padding-top: 45px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    margin: 5px;
+}
+
+button {
+    margin-bottom: 10px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: rgb(145, 255, 0);
+    color: black;
+}
+
+h4, p:last-of-type {
+    color: white;
+}
